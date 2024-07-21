@@ -1,0 +1,10 @@
+commit 03bdf8848045420a610ff0337ba0aaebf507059d
+tree 243c64e51ca11d9f6cc29e63035ed6a624da9b86
+parent 1069a58bee4ec84f9fe710ea9e770c760ef950de
+author Reness <reness9910@gmail.com> 2024-07-21 15:20:19 +0800
+committer Reness <reness9910@gmail.com> 2024-07-21 15:20:19 +0800
+
+    Update AppTest.java
+
+
+:100644 100644 a01373a85561a661eeffc29fb8455fd5e1d03b98 cc5ed2f0d161f14aedc635f24696c642ceafa707 M	src/test/java/mycompany/app/AppTest.java
