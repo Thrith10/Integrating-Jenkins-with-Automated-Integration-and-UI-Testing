@@ -1,0 +1,114 @@
+Started by user [8mha:////4OQd0Sm07ipmQcR0L5hTWPNWbmEfYU7ruMMD2NQqOsXxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZu/dLi1CL9xJTczDwAMuoES8AAAAA=[0mReness Ravichandran
+Obtained Jenkinsfile from git https://github.com/Thrith10/Integrating-Jenkins-with-Automated-Integration-and-UI-Testing.git
+[8mha:////4HNpS7tG3hgKh6kbQQC+uxXJ7ha0VssBdqyqOP5VTNgDAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Bbra/grttxKzaJvy83MBQ2vS+1jjYN1xd4QQlKFpRAeAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] stage
+[8mha:////4BarIswCbmzIf4y2y18Ri/hKrlwubcQgUMIaAQhfOjvpAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] { (Integration UI Test)
+[8mha:////4MIglSRV+NpKrY2Otwp6MzaCXxXKaCCGpXAVmMU1ZvB6AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] parallel
+[8mha:////4HFNtIFoZxKlrjpZ0B5FJHLgX4su+j1QKfn4p6zN1MYvAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0QgyIiTXKwglCEkLa6P82SWknTsTVuAOBSkxYsmRbst7zBXWKcKToeGux85i0530YXUl8othdA028pQvXhImC5dJOkow9LVVStrCIVbASsLaoAyWPLsNGtOqumqDQNeccy3YQUHkzwAOYKOSsYv6WOcL2NppE+OP8BcDcZ2C74v3nV78BAT1U2sAAAAA=[0m[Pipeline] { (Branch: Deploy)
+[8mha:////4GVCd2u/YyzL9qjNIXUEVbZKQXwHD0oTcs1xPfsKwWtSAAAAph+LCAAAAAAAAP9tjUEKwjAURH8qXbh16SHSlSCIK7chG08QkxjThv/bJLVdeSKv5h2MFlw5MDAzMLznC+oU4UjR8dZi5zFpz/swupL4RLG7Bpp4SxeuCRMFy6WdJBl7WqqkbGERq2AlYG1RB0oeXYaNaNVdNUGha845lu0goPJmgAcwUchZxfwtc4TtbTSJ8Mf5C4C5z8B2xfvPr34D1I8CK8AAAAA=[0m[Pipeline] { (Branch: Headless Browser Test)
+[8mha:////4IqmcozkX+NcwnjAmJwLX7GtlpsgSG1TlJyD85AJIYBqAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0RAgxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jdMjKvkwAAAAA==[0m[Pipeline] stage
+[8mha:////4C6lZxWcS0CQ5/WuYbh49b8NY2xK1x9x7vYvNDNUn9sGAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] { (Deploy)
+[8mha:////4HQDdVO4Ugq0Fkb6VBdmJr0SyiKRw8ec5smkwtdqOVdaAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYSjdEiIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFDuGsmk+x+oN1KVskMEAAAA=[0m[Pipeline] stage
+[8mha:////4OSsAvvWpyBw6unK3oReDqUTTGl1RMQyczyDT80samn+AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] { (Headless Browser Test)
+[8mha:////4HmJ5jaBdLGu3smaZSkp7Duy315FNjjRlqq9milgK7SsAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfL9brbD/Cw+CgB4kcIAAAA=[0m[Pipeline] node
+Running on [8mha:////4EsAI36Dt3noBLfo8l/BTa8oXWrQZQZMwGTxkYsQZZ3rAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/Integrating Jenkins with Automated Integration and UI Testing
+[8mha:////4P+4GEDDdfJLMARn1LArnwh3TWzAyYb8ufoKb27OroALAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAXOJEdTCAAAA[0m[Pipeline] node
+Running on [8mha:////4EsAI36Dt3noBLfo8l/BTa8oXWrQZQZMwGTxkYsQZZ3rAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/Integrating Jenkins with Automated Integration and UI Testing@2
+[8mha:////4PADpa+zdE7sWAGlylD1Duoc9GPsmIsMDpRieFb0WiYlAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDxaFw97CAAAA[0m[Pipeline] {
+[8mha:////4FAkWw2SoI0k34rj0098Hcu4MRXIZzZ4Ef9CFbxzSs04AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSIgFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAA74mxxwgAAAA==[0m[Pipeline] {
+[8mha:////4PPyWN2DFSRcnGs1uwpYTG8CukOMmMXnucPJq1S7CNWxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHz0lO8vgAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential 1541af58-75e8-410b-a344-e0ddab2a81e5
+[8mha:////4MRuQ8l9FrZo0O0sOf2dIyG0kstKpgv6MJFsgO28/40FAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGh1CMKvgAAAA==[0m[Pipeline] checkout
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Integrating Jenkins with Automated Integration and UI Testing/.git # timeout=10
+Fetching changes from the remote Git repository
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential 1541af58-75e8-410b-a344-e0ddab2a81e5
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Integrating Jenkins with Automated Integration and UI Testing@2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Thrith10/Integrating-Jenkins-with-Automated-Integration-and-UI-Testing.git # timeout=10
+Fetching upstream changes from https://github.com/Thrith10/Integrating-Jenkins-with-Automated-Integration-and-UI-Testing.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials admin
+ > git config remote.origin.url https://github.com/Thrith10/Integrating-Jenkins-with-Automated-Integration-and-UI-Testing.git # timeout=10
+ > git fetch --tags --force --progress -- https://github.com/Thrith10/Integrating-Jenkins-with-Automated-Integration-and-UI-Testing.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Fetching upstream changes from https://github.com/Thrith10/Integrating-Jenkins-with-Automated-Integration-and-UI-Testing.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials admin
+ > git fetch --tags --force --progress -- https://github.com/Thrith10/Integrating-Jenkins-with-Automated-Integration-and-UI-Testing.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 48c2bdfb16414a585ec5fb7f331c598dd582738e (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+Checking out Revision 48c2bdfb16414a585ec5fb7f331c598dd582738e (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 48c2bdfb16414a585ec5fb7f331c598dd582738e # timeout=10
+ > git checkout -f 48c2bdfb16414a585ec5fb7f331c598dd582738e # timeout=10
+Commit message: "add"
+ > git rev-list --no-walk 313cb12c1d2bd273044d9c3a7fcfba667e214a2f # timeout=10
+Commit message: "add"
+[8mha:////4JP/gY1io1mjaS4/MARP7E433ZuUvyKoCqdOhUZl+dZZAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDAwIMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAuj7RBwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4MIH9trMrmmrIR+CNAmQIw/NkNCl/25FFtky65zduHrFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] {
+[8mha:////4FN3frC+qE9UD+rqX6oEGQZnKDornJXFLVw7O3xJSi6WAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQo99tP7cIbaOP4NL4AAAA=[0m[Pipeline] sh
++ ./jenkins/scripts/deploy.sh
++ DOCKER_PATH=/mnt/c/Users/renes/Downloads/jenkins-php-selenium-test/jenkins-php-selenium-test/src
++ docker run -d -p 80:80 --name my-apache-php-app -v /mnt/c/Users/renes/Downloads/jenkins-php-selenium-test/jenkins-php-selenium-test/src:/var/www/html php:7.2-apache
+./jenkins/scripts/deploy.sh: 9: docker: not found
++ sleep 10
+[8mha:////4PdjaisACUS7VMjPWocZKdaTMnXUcRw3EY+ol0Gnlmo5AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUdGBBTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDc7bM1zedZvQFxA3mDwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4HgVeqmC+1o62qdSFHsVG7qSyejMx2mB6IGylYy3RJfZAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4Gs+06jZuBLxDjKbjofRS349kYm1XAMNpHTkgcM35b1tAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] isUnix
+[8mha:////4LUlrUPZYb04yojtbcY5eJ8y9df8/gXhZXuxOqwEbpL3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD3tNtZjCAAAA[0m[Pipeline] withEnv
+[8mha:////4JT5YiVdnBqjHVb/pSCgYZLygX5yQye5Lj0W2XmccwBWAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] {
+[8mha:////4Ec1mYpN/VjnFw5jSKd2qBjMCngHJAwPw6pR9Oe20zNVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHUcXIBvgAAAA==[0m[Pipeline] sh
++ docker inspect -f . maven:3-alpine
+/var/jenkins_home/workspace/Integrating Jenkins with Automated Integration and UI Testing@2@tmp/durable-bf73793e/script.sh.copy: 1: docker: not found
+[8mha:////4HEW1R/TfNRLlZ6MsKtS3KGnyqM6R80h5Buzqagirx0/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q0bbeqGvgAAAA==[0m[Pipeline] isUnix
+[8mha:////4DePAsftSGh53O+SAlAXSm1ahXuE1OoxsAjl7rKbEWasAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYkBCiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gNCISCewgAAAA==[0m[Pipeline] withEnv
+[8mha:////4HQWLyvlRgsMX9bmh9T2LU56m6tzg+BjtDv1fdd751/vAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] {
+[8mha:////4MabHfNZSh5E5oTFf0s/C8xlXBBobBs1QpdnmGpFfgkdAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokRUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfewYmQ+b4AAAA=[0m[Pipeline] sh
++ docker pull maven:3-alpine
+/var/jenkins_home/workspace/Integrating Jenkins with Automated Integration and UI Testing@2@tmp/durable-a4f73ccf/script.sh.copy: 1: docker: not found
+[8mha:////4Mvvb8RTv6o/8Yf8/SHmmH9g8kzqTQBnfRt0EbE872N8AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKPe7T23fGXWL/r4AAAA=[0m[Pipeline] }
+[8mha:////4FY/5WEfSlcA81fKuqKalqlPVPon+JaViFeMuXbjefyhAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSIUQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AFZLxBVvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4EzSbXhKYcb8bx6yleIothxqxzwdiLePlsnsNRfFkp5YAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAaJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw9wAqrYvgAAAA==[0m[Pipeline] }
+[8mha:////4Ahviq8qtildxfjDqxhUwp+wH6fxY5Op9gcNSt3+jeZTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigVIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QFvgP+KvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4IdPBMYejZ0vKcFGKloKqsirnrfvFT7lyZNLPYcspsERAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRiESDqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZH3Lt6w/0VwjlvgAAAA==[0m[Pipeline] }
+[8mha:////4Au13vspKMlQFKTaSKErsRzg6syPjaAZ3A3TKm4ZM486AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihYICUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w/HtFNZvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4A6BdH6y1wqSgLLdTV8eZJ9WQDhBJ6SpjsBbSbm6Wi2gAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihISQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu0Ou7f4DyJFFhL4AAAA=[0m[Pipeline] }
+[8mha:////4NiVyT/Ky6cJsp34CrIYH8rnmxafPv3wjCoDiJmFtMijAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w9BIxehvgAAAA==[0m[Pipeline] // node
+[8mha:////4Kvp6FVbYUuLA+4Gm7zBRjCX4XUsIqKKX9fNT8nq5r5bAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICiA6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5trtPzLp3Kq+AAAA[0m[Pipeline] }
+[8mha:////4OF81KHhovKXr6JseXJsYijRolk4J4JI4z6zlcbyH6IjAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRJDpERWu54QUmMcaOdWfsC0nFi/gaf8AiEhVbrHa2mdcb1jnBkZIV3uDgMHdOxDDassREabgGmoSni+gIMwUjlJkU9ea0oCI2sKSqYSVhY7ALlB1ahq30+qGboNE2Z07lO0ioXX+HJ1SymFkn/sKcYHcb+0z48/wVwBwjQ71vS7XtBy1rifi+AAAA[0m[Pipeline] // stage
+[8mha:////4EM9y22Nn0uIUnCA+DSos33VliLWu0YnastDMBliHnOMAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREAUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN9tBdn+A32l/vG9AAAA[0m[Pipeline] }
+Failed in branch Headless Browser Test
++ set +x
+Now...
+Visit http://localhost to see your PHP application in action.
+[8mha:////4GOTDOTNsDVzsyJQoSuoqu9EqxBOkHB/tR0a3NmxPiCYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCgA6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5W6b67AfPlj9QwK+AAAA[0m[Pipeline] input
+Finished using the web site? (Click "Proceed" to continue)
+[8mha:////4HOtOQuzdKcE93OsHpOLt4Mi+xO2YCDcxz3r0wKQBnnSAAABQx+LCAAAAAAAAP9dUDtOAzEQnd0IaBElokO0dgJkkw1KgQCJoAiQEg7gdZz9xLGNPZtPwyFoOQI0SFyBQ3ABOmoKGhxWQoIp5r0ZzXsavacPWHMWTrVNSSHUJFeO58TIMvWMzLWdjKWeE1caoy0Sh8I4kitTIrm+GgzPl0ZYmavJpUax+VZ7+Wx9vYcQ9KFWWomw1S/YjFHJVEoHaHOVHi0s7GTlyGlFuFZOS0H+uETdx+fuvXkNIezBuhQqxayyu4U7CLx8+5/8pMKVGKoKQoCF8WQDIdhFeMgQTYdSqTmTmXbYadfbDVrohPYUitQy9K/t7dcvqgg8m+eYeTguUU8ZipHnv6da+Ymp1e6m59tQuJWeNulPMjRuHcQiiQ8bPE44jzhniYiaUTJutlgS19vUWM2FGJ1NDS6/AU4uCzeCAQAA[0mProceed or [8mha:////4LJb3aXNLpB/+f53oDGeqkIdpJ5V21bIDEGUYSmEcotKAAABPB+LCAAAAAAAAP9dUDFOAzEQ3Lso1IgS0SFaOwHukgtKgaAgKAKkhAfYjnN3ibGNvUdCwyMQv4AGiS/wCD5AR01Bg8NJSLDFzuxqZ7Sapw9oegfHxuVkJvW81F6UxKoqD4wsjJtPlVkQX1lrHBKP0npSalshuTgfjU9urXSq1PMzg3L9rfHy2fl6jyEaQqNyCmFjOGM3jCqmczpCV+r8YOlgq6gm3mgijPZGSfLHJe0/Pvfv7WsM8QDWlNQ5FrXdNdxBFOSb/+RHNa7EUFcUAyxtIE2EaBvhoUC0PUqVEUwVxmOv2+q26cxwOtAoc8cwvLaz2zqtIwhsUWIR4LBCc8VQTgL/PTU6TEyvdpeD0MbSr/Q0oT/J0Kyzl0me7bdFxoVIhWBcpknKp0mH8azVpYyHML8BG3CLzXsBAAA=[0mAbort
+Approved by [8mha:////4OQd0Sm07ipmQcR0L5hTWPNWbmEfYU7ruMMD2NQqOsXxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZu/dLi1CL9xJTczDwAMuoES8AAAAA=[0mReness Ravichandran
+[8mha:////4JDKhPpSjLNN0RdGs/rOCgg0FVTFoLn8TVp1IJgLlR8gAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCUDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKA/7XHXtP59rAk2+AAAA[0m[Pipeline] sh
++ ./jenkins/scripts/kill.sh
++ docker kill my-apache-php-app
+./jenkins/scripts/kill.sh: 4: docker: not found
++ docker rm my-apache-php-app
+./jenkins/scripts/kill.sh: 5: docker: not found
+[8mha:////4F+705rdz1LtU8SrPOitC6fKR/z+OvnKqWxDt29wL9FrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wFuSjI/vgAAAA==[0m[Pipeline] }
+[8mha:////4OEboHKm85YXt9t4eL/QpdMvdVvs3WDZU3ykCCDvUSwyAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJISEUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu32u7eEDp9NX674AAAA=[0m[Pipeline] // withEnv
+[8mha:////4NG6GVQT3ksNOBEEJtKav+sskQnutROY6TWuL6+zLsDGAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AKUy9Kb4AAAA=[0m[Pipeline] }
+[8mha:////4BMb9oDRVsKuES7Dh5EgWiMIPl5h2znarjcX4xDawt0CAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i13X0AyVuIMb4AAAA=[0m[Pipeline] // node
+[8mha:////4BbfS9jiWJ289RqyFtONzwBvpg1n67+oftBFImCUPCs8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEg1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w/W2d1jvgAAAA==[0m[Pipeline] }
+[8mha:////4CaN43WlWrrq6Cj4sDUzlOp7yyIM7IFmLD+29mHBec/jAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKhoUCIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPLhVlN70AAAA=[0m[Pipeline] // stage
+[8mha:////4Hz2jF2peN+OVdF1558Jtj4bJYqMqhQIKMyYKkWVGd/lAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5LutINt/AJkRve29AAAA[0m[Pipeline] }
+Failed in branch Deploy
+[8mha:////4Oen3aWrswVdF9JdoHYttkJeiwV97gwOOrjfILsVvYgfAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkJkzGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHZQoTRL0AAAA=[0m[Pipeline] // parallel
+[8mha:////4OpKhvjDt1xmgai74LASQgl8LKs5GpuNWd3lEeGWGcpFAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUauVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfI91tBtvsAQxN0Dr0AAAA=[0m[Pipeline] }
+[8mha:////4ONFgpjsK9KZplcxqJ4OFEj2/P4HhwfQ1BEHW/eKQR9IAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUauVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfI9ztBtv0A8FowIr0AAAA=[0m[Pipeline] // stage
+[8mha:////4IBQnIzjQeTQ2BikACoCu6gJXYU8T2fwuP8a/jdz7DPmAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkJkzGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0H1kNXaL0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 127
+Finished: FAILURE
